@@ -39,7 +39,7 @@ compose.desktop {
         mainClass = "com.example.timer.MainKt"
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Exe)
             packageName = "Timer"
             packageVersion = "1.0.0"
         }
